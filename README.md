@@ -1,1 +1,11 @@
 # election_analysis
+- filling missing ages with mean
+- fill missing data in string data with Unknown
+- standardize responses and aggregate to have more impactful and meaningful results
+-standardized results have `*_Standardized` as part of the column heading
+- standardization steps include 
+    - removing leading and trailing whitespaces
+    - fixing apostrophe issues and latin encoding
+    - correct misspelled words
+    - grouping similar occupations into profession
+    - 
